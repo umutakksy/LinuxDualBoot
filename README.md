@@ -14,6 +14,7 @@ USB bellek kullanmadan, Windows'u silmeden Linux kurmaya hazırlanmanızı sağl
 
 ## İçindekiler
 
+- [Ekran görüntüleri](#ekran-görüntüleri)
 - [Nasıl çalışır?](#nasıl-çalışır)
 - [Desteklenen Linux dağıtımları](#desteklenen-linux-dağıtımları)
 - [Güvenlik tasarımı](#güvenlik-tasarımı)
@@ -22,6 +23,20 @@ USB bellek kullanmadan, Windows'u silmeden Linux kurmaya hazırlanmanızı sağl
 - [Bilinen sınırlamalar](#bilinen-sınırlamalar)
 - [Geri alma](#geri-alma)
 - [Katkı](#katkı)
+
+## Ekran görüntüleri
+
+| 1. Sistem kontrolü | 2. ISO doğrulama |
+|---|---|
+| ![Sistem kontrolü](gorseller/ham/1-sistem.png) | ![ISO doğrulama](gorseller/ham/2-iso.png) |
+
+| 3. Yapılandırma | 4. Uygulama |
+|---|---|
+| ![Yapılandırma](gorseller/ham/3-yapilandirma.png) | ![Uygulama](gorseller/ham/4-uygulama.png) |
+
+**5. Rehber**
+
+![Rehber](gorseller/ham/5-rehber.png)
 
 ## Nasıl çalışır?
 

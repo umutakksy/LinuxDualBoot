@@ -1,0 +1,33 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><title>LinkedIn</title><style>
+:root{--bg:#0b1220;--fg:#f2f5fb;--mut:#9aa7c2;--acc:#3ddc97}
+*{box-sizing:border-box;margin:0}
+body{font-family:"Segoe UI",Arial,sans-serif;color:var(--fg);background:var(--bg)}
+.s{display:none;width:1080px;height:1080px;padding:68px 64px 0;flex-direction:column;position:relative;overflow:hidden;
+ background:radial-gradient(800px 500px at 100% 0,#15305a,transparent 60%),radial-gradient(600px 420px at 0 100%,#0f3d36,transparent 60%),var(--bg)}
+.s:target{display:flex}
+.tag{font-size:25px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-weight:700}
+h2{font-size:62px;line-height:1.06;font-weight:800;letter-spacing:-.015em;margin-top:14px}
+h2 em{font-style:normal;color:var(--acc)}
+.shot{margin-top:34px;border-radius:14px;overflow:hidden;border:2px solid #2a3a5e;box-shadow:0 24px 60px rgba(0,0,0,.55);line-height:0}
+.shot img{width:100%;display:block}
+p{font-size:30px;line-height:1.4;color:var(--mut);margin-top:30px}
+p b{color:var(--fg)}
+.foot{position:absolute;left:64px;right:64px;bottom:38px;display:flex;justify-content:space-between;font-size:23px;color:var(--mut)}
+.foot b{color:var(--acc)}
+</style></head><body>
+<section class="s" id="s1"><div class="tag">USB'siz Linux Dual Boot · 1 / 5</div><h2>Önce bilgisayarın <em>uygun mu</em> diye bakar.</h2>
+<div class="shot"><img src="ham/1-sistem.png"></div><p>UEFI, GPT, Secure Boot ve BitLocker otomatik kontrol edilir. <b>Uygun değilse araç ilerlemez.</b></p>
+<div class="foot"><span>Windows 10/11 · UEFI + GPT</span><b>github.com/umutakksy/LinuxDualBoot</b></div></section>
+<section class="s" id="s2"><div class="tag">ISO doğrulama · 2 / 5</div><h2>ISO’yu <em>baştan</em> denetler.</h2>
+<div class="shot"><img src="ham/2-iso.png"></div><p>SHA256 ve ISO yapısı <b>aynı anda</b> kontrol edilir. UEFI’den açılmayan ya da FAT32’ye sığmayan ISO daha başta reddedilir.</p>
+<div class="foot"><span>Windows 10/11 · UEFI + GPT</span><b>github.com/umutakksy/LinuxDualBoot</b></div></section>
+<section class="s" id="s3"><div class="tag">Yapılandırma · 3 / 5</div><h2>Linux’a ne kadar alan? <em>Sen seç.</em></h2>
+<div class="shot"><img src="ham/3-yapilandirma.png"></div><p>Kaydırıcıyla alanı belirle; <b>canlı disk çubuğu</b> Windows’ta neyin kalacağını gösterir. Yedek ve BitLocker onayları zorunlu.</p>
+<div class="foot"><span>Windows 10/11 · UEFI + GPT</span><b>github.com/umutakksy/LinuxDualBoot</b></div></section>
+<section class="s" id="s4"><div class="tag">Uygulama · 4 / 5</div><h2>Önce <em>deneme modu.</em></h2>
+<div class="shot"><img src="ham/4-uygulama.png"></div><p>Diske dokunmadan çalışacak <b>her betiği adım adım</b> gösterir. Gerçek uygulama için <b>ONAYLIYORUM</b> yazman gerekir.</p>
+<div class="foot"><span>Windows 10/11 · UEFI + GPT</span><b>github.com/umutakksy/LinuxDualBoot</b></div></section>
+<section class="s" id="s5"><div class="tag">Kurulum rehberi · 5 / 5</div><h2>Sana özel <em>adım adım rehber.</em></h2>
+<div class="shot"><img src="ham/5-rehber.png"></div><p>Seçimlerine göre hazırlanır: boot menüsü, manuel bölümleme, GRUB. <b>Masaüstüne kaydet</b> ya da panoya kopyala.</p>
+<div class="foot"><span>Windows 10/11 · UEFI + GPT</span><b>github.com/umutakksy/LinuxDualBoot</b></div></section>
+</body></html>

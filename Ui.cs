@@ -234,7 +234,7 @@ sealed class Chip : Surface
     {
         var g = e.Graphics; g.Clear(BackColor);
         var c = Theme.LevelColor(_lvl);
-        int h = Theme.Dp(22);
+        int h = Theme.Dp(26);
         var r = new Rectangle(0, (Height - h) / 2, Width, h);
         Theme.FillRound(g, r, 0, Theme.Mix(Color.White, c, .10f), c);
         Theme.T(g, Text, Theme.Small, c, r, Theme.Center);
